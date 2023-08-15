@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Changing Bitcoin to USD: A Converter</title>
+    <style>
+        body {
+            background-color: #D3D3D3;
+        }
+        h1 {
+            text-align: center;
+            text-decoration: wavy;
+        }
+        p {
+            text-align: center;
+            text-decoration: blueviolet;
+        }
+        form {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>BITCOIN Converter</h1>
+    <p>Enter the number of bitcoins</p>
+    <form id="converter-form">
+        <input type="number" id="amount" placeholder="Amount">
+        <select id="currency">
+            <option value="USD">USD $</option>
+            <option value="CAD">CAD $</option>
+            <option value="EUR">EUR</option>
+        </select>
+        <button type="submit">Zoom convert</button>
+    </form>
+    <div id="result"></div>
+    <script src="cv_calculator.js"></script>
+</body>
+</html>
